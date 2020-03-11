@@ -23,8 +23,10 @@ void loop()
   
 }
 
-void Adelante
-    digitalWrite(pinD1,HIGH);
-    digitalWrite(pinI2,HIGH);
+void Adelante()
+{ 
+   digitalWrite(pinD1,HIGH);
+   digitalWrite(pinI2,HIGH);  
+}       
    
     

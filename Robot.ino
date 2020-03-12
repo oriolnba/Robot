@@ -36,28 +36,7 @@ void loop() {
    delay(1000);
    turnLeft();
 
-     if(distanceCm < 10)
-     {
-     moveStop();
-     delay(1000);
-     turnLeft();
-
-       if(distanceCm < 10)
-       {
-       moveStop();
-       delay(1000);
-       turnLeft();
-       }
-       
-       else{
-       moveAdelante();
-       }
-     }
-     
-      else{
-       moveAdelante();
-       }
-   }
+    
 
     else{
        moveAdelante();
